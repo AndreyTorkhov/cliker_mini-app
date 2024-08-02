@@ -10,6 +10,20 @@ body {
   background-color: #1c1f24;
 }
 
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.aim {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  user-select: none;
+  white-space: normal;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -43,6 +57,24 @@ body {
   --tiltX: 0deg;
   --tiltY: 0deg;
   transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
+}
+
+.reset-button {
+  margin-top: 20px;
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #e8c547;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #ef882b;
 }
 
 .plus-one {
